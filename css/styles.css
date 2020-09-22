@@ -1,0 +1,440 @@
+@supports (grid-area: auto) {
+
+  body {
+    background-color: #343434;
+  }
+  h1, h2{
+    font-family: 'Staatliches', cursive;
+    color: white;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 14px;
+   }
+
+  h3 {
+    font-family: 'Staatliches', cursive;
+    color: #FBB03B;
+  }
+
+  a {
+    text-decoration: none;
+    color: #FFCE81;
+  }
+
+  .header-video {
+    max-width: 100%;
+  }
+
+
+  body {
+    margin: 0px;
+    background: #343434;
+  }
+/* centing text inside the div */
+  .centered {
+    height: 100%;
+    position: relative;
+    text-align: center;
+  }
+
+
+  }
+  h4 .intros {
+    padding: 0px 15px 10px;
+  }
+
+   h4 {
+    font-family: Staatliches, sans-serif;
+    color: #FBB03B;
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+
+  #title-text, #title-coal, #title-wind, #title-electric {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+    text-shadow: 2px 2px 8px grey;
+  }
+
+  #title-text, h1, h2 {
+    margin: 0px;
+
+  }
+  #title-img {
+    max-width: 100%;
+
+  }
+  #subtitle {
+    color: white;
+  }
+
+  .header {
+    background: #504E4E;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    z-index: 200;
+  }
+
+  .link {
+    float: right;
+    margin: 3px;
+    font-size: 15px;
+  }
+/*make header on mobile a hamburger button? */
+  .header a {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 12px;
+  }
+
+  .header a:hover {
+    color: #FBB03B;
+  }
+
+  .logo {
+    max-height: 45px;
+    max-width: auto;
+  }
+
+  .thumbnail_img {
+    width: 100%;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+
+/*  #title-text, #title-electric, #title-coal, #title-wind {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    margin: 0px;
+  } */
+
+.exclude-header a:hover {
+  opacity: 0.75;
+
+}
+
+  #intro-text, .intros {
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #intro-text {
+    /* the orange text at the top of the homepage */
+    color: #FBB03B;
+  }
+
+  .video-cap {
+    font-size: 10px;
+    text-align: right;
+    padding-right: 5px;
+  }
+
+  .section-title, .section-subtitle {
+    color: #FBB03B;
+  }
+
+  .section-title {
+    font-size: 60px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+  }
+
+  .titles {
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+
+  }
+
+  .section-subtitle {
+    color: #FFCE81;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-bottom: 25px;
+  }
+
+  #grid-img {
+    max-width: 100%;
+  }
+
+ .body-text {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+  h5 {
+    font-style: italic;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 15px;
+    font-size: 10px;
+  }
+
+  .body-text {
+    padding: 25px;
+
+
+  }
+
+  .body-text h1 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    padding-top: 15p
+
+  }
+
+  #QA {
+    background: white;
+    padding: 5px;
+  }
+
+  #QA p {
+    color: black;
+    padding: 5px;
+  }
+
+  .page-body {
+    background: #343434;
+    top: 50%;
+  }
+
+  .section-video {
+    padding: 5px 0px 5px;
+  }
+
+  #e-parallax{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Power_lines_%288618709561%29.jpg/1599px-Power_lines_%288618709561%29.jpg);
+    height: 250px;
+    /*on desktop make 500px */
+    background-attachment: fixed;
+    background-position: covrs;
+    background-repeat: no-repeat;
+
+  }
+
+  #coal-parallax {
+      background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/CSIRO_ScienceImage_10945_Coal.jpg/1600px-CSIRO_ScienceImage_10945_Coal.jpg);
+      height: 250px;
+      /*on desktop make 500px */
+      background-attachment: fixed;
+      background-position: cover;
+      background-repeat: no-repeat;
+      background-size: 100%;
+  }
+
+  #wind-parallax {
+    background: url(https://images.pexels.com/photos/1108814/pexels-photo-1108814.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    height: 250px;
+    background-attachment: fixed;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .footer {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 5px;
+    display: block;
+  }
+
+  #QA, h3 {
+    padding: 0px;
+  }
+
+  #QA {
+    padding: 10px;
+  }
+
+
+
+
+@media screen and (min-width:768px) {
+  h3 {
+    font-size: 30px;
+  }
+
+  .link {
+    float: right;
+    margin: 5px;
+    font-size: 18px;
+  }
+
+  .body-text {
+    padding: 40px;
+  }
+
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-template-rows: 300px auto;
+    grid-gap: 3px;
+    grid-area:
+      'coal wind electric'
+      'cst wst est'
+  }
+
+  #coal-sec  {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #coal-intro {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #wind-sec {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #wind-intro {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  #electric-sec {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  #electric-intro {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  .thumbnail_img {
+    height: 300px;
+  }
+
+  #intro-text {
+    padding: 25px;
+  }
+
+  .intros {
+    font-size: 20px;
+    color: #
+  }
+
+  #main-title {
+    font-size: 100px;
+  }
+
+   #sub {
+    font-size: 50px;
+  }
+
+  #hp-scroll, h1 {
+    font-size: 60px;
+  }
+
+  .grid, h2 {
+    font-size: 20px;
+  }
+
+  #intro {
+  /*  position: fixed; */
+    display: block;
+  }
+
+  #hp-scroll {
+    position: relative;
+
+    /* make bg image */
+  }
+
+  h4, #intros {
+    font-family: Staatliches, sans-serif;
+    color: #FBB03B;
+  }
+
+  .intros {
+    padding: 15px;
+  }
+
+  #hp-parallax {
+    background: url(https://images.pexels.com/photos/1285613/pexels-photo-1285613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: 100%;
+    height: 520px;
+    /*on desktop make 500px */
+    background-attachment: fixed;
+    background-position: cover;
+    background-repeat: no-repeat;
+  }
+
+  #title-img {
+    display: none;
+  }
+
+  #title-text {
+    position: fixed;
+  }
+
+  #hp-scroll {
+    background-color: #343434;
+    z-index: 3;
+  }
+
+  #e-parallax{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Power_lines_%288618709561%29.jpg/1599px-Power_lines_%288618709561%29.jpg);
+    height: 400px;
+    /*on desktop make 500px */
+    background-attachment: fixed;
+    background-position: covrs;
+    background-repeat: no-repeat;
+
+  }
+
+  #coal-parallax {
+      background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/CSIRO_ScienceImage_10945_Coal.jpg/1600px-CSIRO_ScienceImage_10945_Coal.jpg);
+      height: 400px;
+      /*on desktop make 500px */
+      background-attachment: fixed;
+      background-position: cover;
+      background-repeat: no-repeat;
+      background-size: 100%;
+  }
+
+  #wind-parallax {
+    background: url(https://images.pexels.com/photos/1108814/pexels-photo-1108814.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+
+
+  }
+}
+}
